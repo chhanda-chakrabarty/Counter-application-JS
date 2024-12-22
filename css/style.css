@@ -1,0 +1,57 @@
+.container {
+  background-color: rgb(236, 231, 231);
+  width: 600px;
+  height: 300px;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 300px;
+  border-radius: 18px;
+}
+
+.titleName {
+  font-size: 32px;
+  font-weight: 600px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.counterElement {
+  font-size: 40px;
+  text-align: center;
+  margin-left: 18px;
+}
+
+.buttonHolder {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 85px;
+}
+
+.increaseButton {
+  padding: 12px;
+  border: none;
+  background-color: #a8dd94;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.decreaseButton {
+  padding: 12px;
+  border: none;
+  background-color: #e7e182;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.resetButton {
+  padding: 12px;
+  border: none;
+  background-color: #e0513e;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
